@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1050583148619",
+    "firebase_url": "https://penjulanan.firebaseio.com",
+    "project_id": "penjulanan",
+    "storage_bucket": "penjulanan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050583148619:android:1dcd87c72050f9f3",
+        "android_client_info": {
+          "package_name": "com.nisa.penjulanan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050583148619-9vbs0sfjkc3fgemofdin9c2r5eo79hng.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nisa.penjulanan",
+            "certificate_hash": "e9808507080cd380e4115c06e3314f68ab171046"
+          }
+        },
+        {
+          "client_id": "1050583148619-p72rk4lasn07gt87qpno08ltu1ph9go0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1uza2VMldsztW8ttpFlDNqVls0Z9oHmM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050583148619-p72rk4lasn07gt87qpno08ltu1ph9go0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

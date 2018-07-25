@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Boundary.RegisterForm"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:gravity="center"
+    android:background="@drawable/login">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:textStyle="bold|italic"
+        android:text="Register "/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:orientation="vertical">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp">
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rround"
+                android:textSize="16dp"
+                android:paddingLeft="30dp"
+                android:hint="Username"/>
+            </LinearLayout>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp">
+            <EditText
+                android:id="@+id/regis_alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rround"
+                android:textSize="16dp"
+                android:paddingLeft="30dp"
+                android:hint="Alamat"/>
+            </LinearLayout>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp">
+            <EditText
+                android:id="@+id/regis_mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:paddingLeft="30dp"
+                android:hint="Email"
+                android:background="@drawable/rround"/>
+            </LinearLayout>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp">
+            <EditText
+                android:id="@+id/regis_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rround"
+                android:textSize="16dp"
+                android:paddingLeft="30dp"
+                android:hint="Password"/>
+            </LinearLayout>
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp">
+        <Button
+            android:id="@+id/btn_login2"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="Login"
+            android:textColor="#257b12"
+            android:textStyle="bold|italic"
+            android:textSize="14dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/loginregisrround" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="Register"
+            android:textColor="#257b12"
+            android:textStyle="bold|italic"
+            android:textSize="14dp"
+            android:background="@drawable/loginregisrround" />
+
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
